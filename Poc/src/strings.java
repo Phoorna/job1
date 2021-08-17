@@ -637,7 +637,7 @@ static int sum1=0;
 		//reversestring("their");
 		//firstUniqChar("loveleetcode");
 		//ojectmap();
-		System.out.println("is prime ?"+	isprime(7));
+	//System.out.println("is prime ?"+	isprime(7));
 		//getprimenumber(100);
 		reveseword(word);
 	//	noofoccurance(num);

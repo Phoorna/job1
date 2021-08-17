@@ -639,7 +639,7 @@ static int sum1=0;
 		//ojectmap();
 		//System.out.println("is prime ?"+	isprime(7));
 		//getprimenumber(100);
-		//reveseword(word);
+		reveseword(word);
 	//	noofoccurance(num);
 		//reverseint(-126);
 		intpalindrome(0);

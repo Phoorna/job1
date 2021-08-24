@@ -22,7 +22,7 @@ jobs:
           - name: build
             uses: convictional/trigger-workflow-and-wait@v1.3.0
             with: 
-               owner: Phoornakr
+               owner: Phoornakrr
                repo: testselenim
                github_token: ${{ secrets.G_ACCESS_TOKEN }}
                workflow_file_name: AppTest.yml

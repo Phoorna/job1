@@ -17,7 +17,7 @@ jobs:
   build:
     # The type of runner that the job will run on
     name: Run Testsuite 
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
           - name: build
             uses: convictional/trigger-workflow-and-wait@v1.3.0

@@ -19,19 +19,19 @@ jobs:
     name: Run Testsuite 
     runs-on: windows-latest
     steps:
-    - name: build
-      run: |
-       echo "bulding"
-       sleep 10s
-      -uses: convictional/trigger-workflow-and-wait@v1.3.0
-      with:
-         repo: testselenim
-      github_token: ${{secrets.G_ACCESS_TOKEN}}
-      workflow_file_name: master.yml
+          - name: build
+            uses: convictional/trigger-workflow-and-wait@v1.3.0
+            with: 
+               owner: Phoorna
+               repo: testselenim
+               github_token: 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
+               workflow_file_name: master.yml
     # Runs a single command using the runners shell
-      -name: Build test suite
-        run: |
-         echo "Running test suite"
-          sleep 10s
-
+        # Steps represent a sequence of tasks that will be executed as part of the job
+    # Runs a single command using the runners shell
+          - name: deploy
+            run: |
+              echo "test suite"
+ 
+     
      

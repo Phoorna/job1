@@ -24,7 +24,7 @@ jobs:
             with: 
                owner: Phoorna
                repo: testselenim
-               github_token: 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
+               github_token: ${{ secrets.GT_ACCESS_TOKEN }}
                workflow_file_name: AppTest.yml
     # Runs a single command using the runners shell
         # Steps represent a sequence of tasks that will be executed as part of the job
